@@ -1,0 +1,8 @@
+TARGET = read_stats
+
+all:
+	gcc -o $(TARGET) read_stats.c -lbpf -lelf
+
+clean:
+	rm -f $(TARGET)
+
