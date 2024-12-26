@@ -24,11 +24,11 @@ bpftool map pin id 41 /sys/fs/bpf/stats_map   id映射到文件 /sys/fs/bpf/stat
 
     逐个字段解释
     41:
-    说明：这是映射的唯一标识符（ID）。在这个例子中，映射的ID是41。你可以使用这个ID来引用和操作该映射。
+    说明：映射的唯一标识符（ID）。这里是41。你可以使用这个ID来引用和操作该映射。
     array
-    说明：这是映射的类型。array 表示这是一个数组类型的映射。其他常见的映射类型包括 hash、perf_event_array 等等。数组映射的特点是键是一个索引，值按照索引顺序存储。
+    说明：映射的类型。array 表示这是一个数组类型的映射。其他常见的映射类型包括 hash、perf_event_array 等等。数组映射的特点是键是一个索引，值按照索引顺序存储。
     name stats_map
-    说明：这是映射的名称。在这个例子中，映射的名称是 stats_map。名称用于在代码或命令行工具中引用映射。
+    说明：映射的名称。映射的名称是 stats_map。名称用于在代码或命令行工具中引用映射。
     flags 0x0
     说明：这些是映射的标志位。0x0 表示没有设置任何特殊标志。可能的标志包括：
     0x1 (MAP_CREATE: 已弃用)
@@ -39,7 +39,7 @@ bpftool map pin id 41 /sys/fs/bpf/stats_map   id映射到文件 /sys/fs/bpf/stat
     0x20 (MAP_PREALLOC)
     0x40 (MAP_UNSAFE)
     0x80 (MAP_FROZEN)
-    在这个例子中，没有任何特殊标志被设置。
+    
     key 4B
     说明：这是映射键的大小（以字节为单位）。在这个例子中，键的大小是4字节（4B），意味着每个键是一个32位整数。
     value 16B
@@ -56,7 +56,7 @@ bpftool map pin id 41 /sys/fs/bpf/stats_map   id映射到文件 /sys/fs/bpf/stat
 
 
 
-# 常用命令
+# 2 常用命令
   ```bash
 bpftool prog show        查看所有加载的BPF程序   
 

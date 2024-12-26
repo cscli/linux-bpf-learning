@@ -3,6 +3,10 @@
 打造学习BPF知识的中文社区。学习计划如下:
 ![bpf-learning-path](https://davidlovezoe.club/wordpress/wp-content/uploads/2020/06/eBPF-learning-002-2048x1528.png)
 
+## 博文参考
+  - [默安逐日实验室：XDP的应用实践](https://blog.csdn.net/moresec/article/details/140211593)
+  
+
 ## 相关博文参考
 - 中文版：https://davidlovezoe.club/wordpress/archives/tag/bpf
 
